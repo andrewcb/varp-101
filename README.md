@@ -20,13 +20,13 @@ VArp-101, like other arpeggiators, responds to keys pressed on a keyboard (or no
 The VArp-101 panel has the following controls:
 
 * **Arp mode**: A dropdown menu which selects the arpeggiator mode. Modes are:
- + Ascending (**↗**): The arpeggiator cycles through available note pitches from lowest to highest, then starting again at the lowest.
- + Decending (**↘**): The arpeggiator cycles through available note pitches from highest to lowest, then starting again at the highest.
- + Alternating (**⌃**): The arpeggiator cycles through available note pitches from lowest to highest, and then back to lowest. The lowest and highest notes are played only once in each cycle; i.e., if the notes held down are C, E and G, it will play C E G E C E G E. 
- + Random (**rnd**): The arpeggiator plays notes selected at random from the available note pitches. 
- + Alternating 2 (**↗↘**): In each cycle, the arpeggiator plays the available notes from the lowest to the highest, and then from the highest to the lowest. This differs from the previous Alternating setting in that the lowest and highest are repeated. I.e., if the notes held down are C, E and G, it will play C E G G E C C E.
- + Alternating 4 (**↗↘↘↗**): In each cycle, the arpeggiator plays the available notes ascending, descending, descending and then ascending. Lowest and highest notes are repeated, as in Alternating 2.
- + Monophonic (**mono**): This is not technically an arpeggiator; while keys are held down, it plays each note with the pitch of the most recently pressed key.
+ + Ascending (↗): The arpeggiator cycles through available note pitches from lowest to highest, then starting again at the lowest.
+ + Decending (↘): The arpeggiator cycles through available note pitches from highest to lowest, then starting again at the highest.
+ + Alternating (⌃): The arpeggiator cycles through available note pitches from lowest to highest, and then back to lowest. The lowest and highest notes are played only once in each cycle; i.e., if the notes held down are C, E and G, it will play C E G E C E G E. 
+ + Random (rnd): The arpeggiator plays notes selected at random from the available note pitches. 
+ + Alternating 2 (↗↘): In each cycle, the arpeggiator plays the available notes from the lowest to the highest, and then from the highest to the lowest. This differs from the previous Alternating setting in that the lowest and highest are repeated. I.e., if the notes held down are C, E and G, it will play C E G G E C C E.
+ + Alternating 4 (↗↘↘↗): In each cycle, the arpeggiator plays the available notes ascending, descending, descending and then ascending. Lowest and highest notes are repeated, as in Alternating 2.
+ + Monophonic (mono): This is not technically an arpeggiator; while keys are held down, it plays each note with the pitch of the most recently pressed key.
 
 * **Octaves**: The number of octaves to play. If this is 1, only the notes pressed are used by the arpeggiator. Higher values add octaves above those pressed. (Setting this to 2 and playing one note can get a classic 1980s synthpop bassline.)
 
@@ -44,7 +44,7 @@ The VArp-101 panel has the following controls:
 
 * **Base duration**: The duration of a short note, in terms of tempo units. Both ordinary and triplet units are provided.
 
-== Licence ==
+## Licence
 
 VArp-101 is open-source software, distributed under a Creative Commons CC-BY-SA licence; which means that you are allowed to use it commercially or noncommercially, copy it and release derivative works, as long as the author (Andrew Bulhak) is acknowledged and any derivative works are equally free to use and copy.
 For more details, see http://creativecommons.org/licenses/by-sa/3.0/
